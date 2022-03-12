@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  // background-color: red;
+
+  > * {
+    border: 1px solid black;
+    padding: 20px 40px;
+  }
+}
+
+// Reuseable Css
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btnGreen {
+  width: 100%;
+  background-color: green;
+  margin-top: 50px;
+}
+.btnBlue {
+  background-color: rgb(100, 100, 168);
+}
+.btnRed {
+  background-color: rgb(202, 109, 109);
+}

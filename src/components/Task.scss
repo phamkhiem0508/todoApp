@@ -1,0 +1,26 @@
+.task {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  > *:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-weight: bold;
+  }
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .boxContainer {
+    width: 42%;
+  }
+  .border {
+    border: 1px solid black;
+  }
+}
